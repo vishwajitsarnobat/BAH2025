@@ -1,0 +1,67 @@
+{
+  "experiments": [
+    {
+      "name_code": "A1_unet_ce_adam",
+      "name_pretty": "A1: U-Net Baseline (CE + Adam)",
+      "architecture": "unet",
+      "encoder": "resnet34",
+      "loss": "ce",
+      "optimizer": "adam",
+      "sampler": false
+    },
+    {
+      "name_code": "B1_deeplab_ce_adam",
+      "name_pretty": "B1: DeepLabV3+ Baseline (CE + Adam)",
+      "architecture": "deeplabv3plus",
+      "encoder": "efficientnet-b4",
+      "loss": "ce",
+      "optimizer": "adam",
+      "sampler": false
+    },
+    {
+      "name_code": "B2_deeplab_focal_adamw",
+      "name_pretty": "B2: Ablation (Focal Loss)",
+      "architecture": "deeplabv3plus",
+      "encoder": "efficientnet-b4",
+      "loss": "focal",
+      "optimizer": "adamw",
+      "sampler": false
+    },
+    {
+      "name_code": "B3_deeplab_lovasz_adamw",
+      "name_pretty": "B3: Ablation (Lovasz Loss)",
+      "architecture": "deeplabv3plus",
+      "encoder": "efficientnet-b4",
+      "loss": "lovasz",
+      "optimizer": "adamw",
+      "sampler": false
+    },
+    {
+      "name_code": "B4_deeplab_hybrid_adamw_NO-sampler",
+      "name_pretty": "B4: Ablation (Hybrid Loss)",
+      "architecture": "deeplabv3plus",
+      "encoder": "efficientnet-b4",
+      "loss": "hybrid",
+      "optimizer": "adamw",
+      "sampler": false
+    },
+    {
+      "name_code": "C1_deeplab_hybrid_adamw_WITH-sampler",
+      "name_pretty": "C1: OUR PROPOSED SOLUTION (Hybrid + Sampler)",
+      "architecture": "deeplabv3plus",
+      "encoder": "efficientnet-b4",
+      "loss": "hybrid",
+      "optimizer": "adamw",
+      "sampler": true
+    },
+    {
+      "name_code": "D1_pspnet_hybrid_adamw_sampler",
+      "name_pretty": "D1: Generalization Test on PSPNet",
+      "architecture": "pspnet",
+      "encoder": "efficientnet-b4",
+      "loss": "hybrid",
+      "optimizer": "adamw",
+      "sampler": true
+    }
+  ]
+}

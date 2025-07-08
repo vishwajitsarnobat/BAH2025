@@ -1,0 +1,65 @@
+--- Starting Experiment: deeplab_advanced ---
+Start time: Tue Jul  8 19:17:30 2025
+Configuration: {'__module__': '__main__', 'EXPERIMENT_NAME': 'deeplab_advanced', 'DATA_PATH': './cityscapes_data', 'DEVICE': 'cuda', 'NUM_CLASSES': 19, 'IMG_HEIGHT': 256, 'IMG_WIDTH': 512, 'BATCH_SIZE': 2, 'EPOCHS': 10, 'LEARNING_RATE': 0.0001, 'WEIGHT_DECAY': 0.0001, '__dict__': <attribute '__dict__' of 'Config' objects>, '__weakref__': <attribute '__weakref__' of 'Config' objects>, '__doc__': None}
+
+Creating weighted sampler for advanced run...
+Using DeepLabV3+ model.
+Using HybridLoss and AdamW optimizer.
+
+--- Epoch 1/10 ---
+Average Training Loss: 0.5715
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.3343
+  Class 'road' IoU: 0.9387
+  Class 'sidewalk' IoU: 0.5839
+  Class 'building' IoU: 0.7883
+  Class 'wall' IoU: 0.0138
+  Class 'fence' IoU: 0.0731
+  Class 'pole' IoU: 0.1758
+  Class 'traffic light' IoU: 0.0177
+  Class 'traffic sign' IoU: 0.2051
+  Class 'vegetation' IoU: 0.8111
+  Class 'terrain' IoU: 0.4047
+  Class 'sky' IoU: 0.8500
+  Class 'person' IoU: 0.3827
+  Class 'rider' IoU: 0.0002
+  Class 'car' IoU: 0.7553
+  Class 'truck' IoU: 0.0004
+  Class 'bus' IoU: 0.0000
+  Class 'train' IoU: 0.0000
+  Class 'motorcycle' IoU: 0.0000
+  Class 'bicycle' IoU: 0.3515
+--------------------------
+
+=> Saved new best model with mIoU: 0.3343
+
+--- Epoch 2/10 ---
+Average Training Loss: 0.3790
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.4332
+  Class 'road' IoU: 0.9465
+  Class 'sidewalk' IoU: 0.6477
+  Class 'building' IoU: 0.8177
+  Class 'wall' IoU: 0.2153
+  Class 'fence' IoU: 0.2552
+  Class 'pole' IoU: 0.2606
+  Class 'traffic light' IoU: 0.1627
+  Class 'traffic sign' IoU: 0.3188
+  Class 'vegetation' IoU: 0.8310
+  Class 'terrain' IoU: 0.4667
+  Class 'sky' IoU: 0.8807
+  Class 'person' IoU: 0.4751
+  Class 'rider' IoU: 0.2077
+  Class 'car' IoU: 0.8068
+  Class 'truck' IoU: 0.1489
+  Class 'bus' IoU: 0.2779
+  Class 'train' IoU: 0.0363
+  Class 'motorcycle' IoU: 0.0640
+  Class 'bicycle' IoU: 0.4113
+--------------------------
+
+=> Saved new best model with mIoU: 0.4332
+
+--- Epoch 3/10 ---
