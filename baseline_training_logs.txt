@@ -1,0 +1,384 @@
+Starting run in 'baseline' mode on device 'cuda'
+Loading model: deeplabv3plus with encoder efficientnet-b4
+
+--- Using Baseline Setup ---
+
+Epoch 1/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [06:50<00:00,  3.63it/s, loss=0.352]
+Average Training Loss: 0.6531
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:29<00:00,  8.39it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.3032
+  Class 'road' IoU: 0.9371
+  Class 'sidewalk' IoU: 0.5884
+  Class 'building' IoU: 0.7704
+  Class 'wall' IoU: 0.0163
+  Class 'fence' IoU: 0.1695
+  Class 'pole' IoU: 0.0871
+  Class 'traffic light' IoU: 0.0000
+  Class 'traffic sign' IoU: 0.0060
+  Class 'vegetation' IoU: 0.8086
+  Class 'terrain' IoU: 0.4369
+  Class 'sky' IoU: 0.8490
+  Class 'person' IoU: 0.3264
+  Class 'rider' IoU: 0.0000
+  Class 'car' IoU: 0.7564
+  Class 'truck' IoU: 0.0000
+  Class 'bus' IoU: 0.0000
+  Class 'train' IoU: 0.0000
+  Class 'motorcycle' IoU: 0.0000
+  Class 'bicycle' IoU: 0.0082
+--------------------------
+
+=> Saved new best model with mIoU: 0.3032
+
+Epoch 2/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [07:06<00:00,  3.49it/s, loss=0.223]
+Average Training Loss: 0.3765
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:29<00:00,  8.34it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.3870
+  Class 'road' IoU: 0.9470
+  Class 'sidewalk' IoU: 0.6369
+  Class 'building' IoU: 0.8114
+  Class 'wall' IoU: 0.2308
+  Class 'fence' IoU: 0.3127
+  Class 'pole' IoU: 0.2021
+  Class 'traffic light' IoU: 0.0017
+  Class 'traffic sign' IoU: 0.1831
+  Class 'vegetation' IoU: 0.8319
+  Class 'terrain' IoU: 0.4692
+  Class 'sky' IoU: 0.8544
+  Class 'person' IoU: 0.4286
+  Class 'rider' IoU: 0.0000
+  Class 'car' IoU: 0.8047
+  Class 'truck' IoU: 0.2386
+  Class 'bus' IoU: 0.0130
+  Class 'train' IoU: 0.0004
+  Class 'motorcycle' IoU: 0.0000
+  Class 'bicycle' IoU: 0.3855
+--------------------------
+
+=> Saved new best model with mIoU: 0.3870
+
+Epoch 3/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [07:05<00:00,  3.49it/s, loss=0.215]
+Average Training Loss: 0.3078
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:30<00:00,  8.32it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.4127
+  Class 'road' IoU: 0.9538
+  Class 'sidewalk' IoU: 0.6798
+  Class 'building' IoU: 0.8334
+  Class 'wall' IoU: 0.2124
+  Class 'fence' IoU: 0.3428
+  Class 'pole' IoU: 0.2114
+  Class 'traffic light' IoU: 0.0568
+  Class 'traffic sign' IoU: 0.2434
+  Class 'vegetation' IoU: 0.8475
+  Class 'terrain' IoU: 0.4966
+  Class 'sky' IoU: 0.8865
+  Class 'person' IoU: 0.4604
+  Class 'rider' IoU: 0.0208
+  Class 'car' IoU: 0.8294
+  Class 'truck' IoU: 0.2692
+  Class 'bus' IoU: 0.0240
+  Class 'train' IoU: 0.0297
+  Class 'motorcycle' IoU: 0.0028
+  Class 'bicycle' IoU: 0.4409
+--------------------------
+
+=> Saved new best model with mIoU: 0.4127
+
+Epoch 4/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [07:21<00:00,  3.37it/s, loss=0.305]
+Average Training Loss: 0.2721
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:29<00:00,  8.33it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.4652
+  Class 'road' IoU: 0.9563
+  Class 'sidewalk' IoU: 0.6883
+  Class 'building' IoU: 0.8426
+  Class 'wall' IoU: 0.3956
+  Class 'fence' IoU: 0.3568
+  Class 'pole' IoU: 0.2325
+  Class 'traffic light' IoU: 0.1472
+  Class 'traffic sign' IoU: 0.3518
+  Class 'vegetation' IoU: 0.8555
+  Class 'terrain' IoU: 0.5223
+  Class 'sky' IoU: 0.8927
+  Class 'person' IoU: 0.4970
+  Class 'rider' IoU: 0.0768
+  Class 'car' IoU: 0.8430
+  Class 'truck' IoU: 0.1140
+  Class 'bus' IoU: 0.3609
+  Class 'train' IoU: 0.1500
+  Class 'motorcycle' IoU: 0.0830
+  Class 'bicycle' IoU: 0.4720
+--------------------------
+
+=> Saved new best model with mIoU: 0.4652
+
+Epoch 5/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [07:16<00:00,  3.41it/s, loss=0.176]
+Average Training Loss: 0.2503
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:30<00:00,  8.28it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.4914
+  Class 'road' IoU: 0.9574
+  Class 'sidewalk' IoU: 0.6980
+  Class 'building' IoU: 0.8501
+  Class 'wall' IoU: 0.3453
+  Class 'fence' IoU: 0.3662
+  Class 'pole' IoU: 0.2546
+  Class 'traffic light' IoU: 0.1957
+  Class 'traffic sign' IoU: 0.3932
+  Class 'vegetation' IoU: 0.8590
+  Class 'terrain' IoU: 0.5379
+  Class 'sky' IoU: 0.8947
+  Class 'person' IoU: 0.5275
+  Class 'rider' IoU: 0.1402
+  Class 'car' IoU: 0.8517
+  Class 'truck' IoU: 0.3643
+  Class 'bus' IoU: 0.3276
+  Class 'train' IoU: 0.2039
+  Class 'motorcycle' IoU: 0.0725
+  Class 'bicycle' IoU: 0.4958
+--------------------------
+
+=> Saved new best model with mIoU: 0.4914
+
+Epoch 6/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [07:08<00:00,  3.47it/s, loss=0.236]
+Average Training Loss: 0.2275
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:29<00:00,  8.44it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.5010
+  Class 'road' IoU: 0.9568
+  Class 'sidewalk' IoU: 0.6966
+  Class 'building' IoU: 0.8472
+  Class 'wall' IoU: 0.3513
+  Class 'fence' IoU: 0.3898
+  Class 'pole' IoU: 0.2575
+  Class 'traffic light' IoU: 0.2427
+  Class 'traffic sign' IoU: 0.4119
+  Class 'vegetation' IoU: 0.8647
+  Class 'terrain' IoU: 0.5574
+  Class 'sky' IoU: 0.9000
+  Class 'person' IoU: 0.5343
+  Class 'rider' IoU: 0.2597
+  Class 'car' IoU: 0.8582
+  Class 'truck' IoU: 0.3640
+  Class 'bus' IoU: 0.1623
+  Class 'train' IoU: 0.1775
+  Class 'motorcycle' IoU: 0.1769
+  Class 'bicycle' IoU: 0.5102
+--------------------------
+
+=> Saved new best model with mIoU: 0.5010
+
+Epoch 7/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [06:57<00:00,  3.56it/s, loss=0.143]
+Average Training Loss: 0.2158
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:30<00:00,  8.27it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.5145
+  Class 'road' IoU: 0.9624
+  Class 'sidewalk' IoU: 0.7192
+  Class 'building' IoU: 0.8493
+  Class 'wall' IoU: 0.3639
+  Class 'fence' IoU: 0.3579
+  Class 'pole' IoU: 0.2855
+  Class 'traffic light' IoU: 0.2554
+  Class 'traffic sign' IoU: 0.4321
+  Class 'vegetation' IoU: 0.8630
+  Class 'terrain' IoU: 0.5235
+  Class 'sky' IoU: 0.8853
+  Class 'person' IoU: 0.5496
+  Class 'rider' IoU: 0.2025
+  Class 'car' IoU: 0.8613
+  Class 'truck' IoU: 0.4487
+  Class 'bus' IoU: 0.3256
+  Class 'train' IoU: 0.2195
+  Class 'motorcycle' IoU: 0.1487
+  Class 'bicycle' IoU: 0.5214
+--------------------------
+
+=> Saved new best model with mIoU: 0.5145
+
+Epoch 8/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [06:58<00:00,  3.55it/s, loss=0.194]
+Average Training Loss: 0.2012
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:31<00:00,  7.84it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.5315
+  Class 'road' IoU: 0.9598
+  Class 'sidewalk' IoU: 0.7068
+  Class 'building' IoU: 0.8488
+  Class 'wall' IoU: 0.3857
+  Class 'fence' IoU: 0.3735
+  Class 'pole' IoU: 0.2796
+  Class 'traffic light' IoU: 0.3064
+  Class 'traffic sign' IoU: 0.4331
+  Class 'vegetation' IoU: 0.8631
+  Class 'terrain' IoU: 0.5196
+  Class 'sky' IoU: 0.8967
+  Class 'person' IoU: 0.5571
+  Class 'rider' IoU: 0.2676
+  Class 'car' IoU: 0.8628
+  Class 'truck' IoU: 0.4958
+  Class 'bus' IoU: 0.4677
+  Class 'train' IoU: 0.1402
+  Class 'motorcycle' IoU: 0.2080
+  Class 'bicycle' IoU: 0.5271
+--------------------------
+
+=> Saved new best model with mIoU: 0.5315
+
+Epoch 9/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [07:13<00:00,  3.43it/s, loss=0.143]
+Average Training Loss: 0.1928
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:30<00:00,  8.33it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.5336
+  Class 'road' IoU: 0.9616
+  Class 'sidewalk' IoU: 0.7171
+  Class 'building' IoU: 0.8515
+  Class 'wall' IoU: 0.4308
+  Class 'fence' IoU: 0.3822
+  Class 'pole' IoU: 0.2896
+  Class 'traffic light' IoU: 0.2979
+  Class 'traffic sign' IoU: 0.4447
+  Class 'vegetation' IoU: 0.8679
+  Class 'terrain' IoU: 0.5305
+  Class 'sky' IoU: 0.8998
+  Class 'person' IoU: 0.5596
+  Class 'rider' IoU: 0.3075
+  Class 'car' IoU: 0.8712
+  Class 'truck' IoU: 0.2836
+  Class 'bus' IoU: 0.3992
+  Class 'train' IoU: 0.2126
+  Class 'motorcycle' IoU: 0.2929
+  Class 'bicycle' IoU: 0.5387
+--------------------------
+
+=> Saved new best model with mIoU: 0.5336
+
+Epoch 10/10
+Training:   0%|                                                                                         | 0/1487 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Training: 100%|██████████████████████████████████████████████████████████████████| 1487/1487 [08:41<00:00,  2.85it/s, loss=0.244]
+Average Training Loss: 0.1849
+Validating:   0%|                                                                                        | 0/250 [00:00<?, ?it/s]/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+/home/vishwajit/Workspace/BAH2025/main.py:60: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  target = np.array(target)
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████| 250/250 [00:53<00:00,  4.65it/s]
+
+--- Validation Metrics ---
+Mean IoU (mIoU): 0.5563
+  Class 'road' IoU: 0.9632
+  Class 'sidewalk' IoU: 0.7279
+  Class 'building' IoU: 0.8651
+  Class 'wall' IoU: 0.4195
+  Class 'fence' IoU: 0.3934
+  Class 'pole' IoU: 0.3164
+  Class 'traffic light' IoU: 0.3008
+  Class 'traffic sign' IoU: 0.4586
+  Class 'vegetation' IoU: 0.8687
+  Class 'terrain' IoU: 0.5440
+  Class 'sky' IoU: 0.9056
+  Class 'person' IoU: 0.5696
+  Class 'rider' IoU: 0.3205
+  Class 'car' IoU: 0.8755
+  Class 'truck' IoU: 0.4765
+  Class 'bus' IoU: 0.4794
+  Class 'train' IoU: 0.2577
+  Class 'motorcycle' IoU: 0.2789
+  Class 'bicycle' IoU: 0.5483
+--------------------------
+
+=> Saved new best model with mIoU: 0.5563
