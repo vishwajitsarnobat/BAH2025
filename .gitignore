@@ -8,7 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+models/
 best_model_advanced.pth
 best_model_baseline.pth
 cityscapes_data/
-models/
