@@ -28,7 +28,7 @@ class Config:
     NUM_CLASSES = 19
     IMG_HEIGHT = 256
     IMG_WIDTH = 512
-    BATCH_SIZE = 4 # Adjust based on your GPU memory
+    BATCH_SIZE = 2 # Adjust based on your GPU memory
     EPOCHS = 10
     LEARNING_RATE = 1e-4
     WEIGHT_DECAY = 1e-4
